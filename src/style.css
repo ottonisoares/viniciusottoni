@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+*{
+    
+    font-family: 'Signika';
+    box-sizing: border-box;
+}
+
+.page1{
+    height: 100vh;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(to left, rgb(1, 0, 27) 30%  , rgb(28, 11, 63) );  
+    margin: 0;  
+    
+}
+
+
+
+.perfil{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.introducao{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.foto{
+    max-height: 200px;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+
+.btn-saiba-mais{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    animation: piscar 2.5s infinite;
+}
+
+.saibaMais{
+    text-align: center;
+    margin-top: 5%;
+}
+
+@keyframes piscar {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    50% {
+      width: 300px;
+      height: 300px;
+      opacity: 0.2;
+    }
+    
+    100% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }  
+  }
+
+  .page2{
+    height: 100vh;
+    text-align: center;
+    padding: 5%;
+    
+  }
+
+  .sobreMim, .projetos{
+    color: white;
+    
+  }
+
+  .title{
+    font-size: 50px;
+    color: white;
+    
+  }
+
+  .texto{
+    font-size: 25px;
+  }
+   
+  .projetoimg{
+    width: 400px;
+  }
+  .links{
+    color: white;
+  }
+
+  .caixaProjeto{
+    margin: auto, 10px;
+  }
+  .tec{
+    max-width: 100px;
+    margin-top: 5%;
+  }
+  .projetosCaixas{
+    display: flex ;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+  }  
+  .tecnologias{
+    margin: auto;
+    text-align: center;
+  }
+  .contato{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  .contatosimg{
+    max-width: 200px;
+    margin: auto;
+  }
+
+  @media (max-width:950px) {
+    .projetosCaixas{
+      display: inline-block;
+      margin: 0 auto;
+    }
+    .tec{
+      max-width: 50px;
+      margin: auto;
+      margin-top: 30%;
+    }
+    btn-saiba-mais{
+      font-size: 10px;     
+  }
+    .introducao{
+      font-size: 10px;
+    }
+    .saibaMais{
+      margin-top: 40%;
+  }
+  .projetoimg{
+    width: 300px;
+  }
+}
