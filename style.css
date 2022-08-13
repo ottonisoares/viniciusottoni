@@ -82,7 +82,7 @@ body{
   }
 
   .title{
-    font-size: 50px;
+    font-size: 35px;
     color: white;
     
   }
@@ -146,5 +146,9 @@ body{
   }
   .projetoimg{
     width: 300px;
+  }
+  .contatosimg{
+    max-width: 70px;
+    margin: auto;
   }
 }
